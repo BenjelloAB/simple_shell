@@ -16,6 +16,5 @@ size_t _strlen(char *str);
 void print_prompt(char *prompt);
 int is_exit_command(char *cmd);
 void append_cwd(char *cmd);
-void append_cwd2(char *cmd);
 
 #endif /* MAIN_H */
