@@ -1,5 +1,5 @@
 #include "main.h"
-int main(int argc, char **av, char **env)
+int main(void)
 {
     char *buffer = NULL;
     char *full_cmd;
@@ -7,9 +7,7 @@ int main(int argc, char **av, char **env)
     char **argv = NULL;
     pid_t pid;
     int chars = 0;
-    char *full_path = NULL;
     int ex;
-    char *token = NULL;
 
     while (1)
     {

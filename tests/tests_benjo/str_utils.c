@@ -31,10 +31,11 @@ char *_strcpy(char *dest, char *src)
 */
 char *_strcat(char *dest, char *src)
 {
+  int i = 0;
+int len = 0;  
     if (!dest | !src)
         return NULL;
-    int i = 0, len = 0;
-    char *s;
+  
     len = _strlen(dest);
     while (src[i])
     {
