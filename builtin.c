@@ -85,8 +85,8 @@ void print_env(char **cmd, int *status, char **argv, int counter)
 
 	while (environ[i])
 	{
-		print_prompt(environ[i]);
-		print_prompt("\n");
+		write(STDOUT_FILENO, environ[i], _strlen(environ[i]));
+		write(STDOUT_FILENO, "\n", 1);
 		i++;
 	}
 	_free(cmd);
