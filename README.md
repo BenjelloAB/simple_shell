@@ -1,4 +1,4 @@
-# 0x16. C - Simple Shell
+##  0x16. C - Simple Shell
 
 This project is aimed at understanding and implementing a shell in the Unix environment. It covers a range of learning objectives related to Unix shell, its history, operation, and system calls.
 
